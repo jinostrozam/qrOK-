@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "825473252520",
+    "firebase_url": "https://qrok-ffabe.firebaseio.com",
+    "project_id": "qrok-ffabe",
+    "storage_bucket": "qrok-ffabe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:825473252520:android:35f01868bc4c1df9a9569d",
+        "android_client_info": {
+          "package_name": "cl.kenivel.qrok"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "825473252520-1kafq0sb3c7honqidic659bbq8vbi94d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "cl.kenivel.qrok",
+            "certificate_hash": "b9f550d66bce7e17879f135d726950c3f12de703"
+          }
+        },
+        {
+          "client_id": "825473252520-ivahojud6ocfee4qrd3k8a2fdf76464h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3AyX5u6bJ0ZnRPeVSDQk9jxn8u2C1dXU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "825473252520-ivahojud6ocfee4qrd3k8a2fdf76464h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
