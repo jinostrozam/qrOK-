@@ -36,7 +36,7 @@ class _RegisterState extends State<Register> {
             icon: Icon(
               Icons.person,
             ),
-            label: Text('Ingreso'),
+            label: Text('Ya tengo \n  cuenta'),
             textColor: Colors.white,
           ),
         ],

@@ -36,7 +36,7 @@ class _SignInState extends State<SignIn> {
             icon: Icon(
               Icons.person,
             ),
-            label: Text('Registro'),
+            label: Text('No tengo \n  cuenta'),
             textColor: Colors.white,
           ),
         ],
