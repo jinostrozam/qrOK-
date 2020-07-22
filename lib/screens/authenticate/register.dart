@@ -12,7 +12,7 @@ class Register extends StatefulWidget {
 }
 
 class _RegisterState extends State<Register> {
-  @override
+  // Constants to use Firestore Auth Services
   final AuthService _auth = AuthService();
   final _formKey = GlobalKey<FormState>();
 
@@ -21,6 +21,7 @@ class _RegisterState extends State<Register> {
   String password = '';
   String error = '';
 
+  @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
@@ -78,14 +79,15 @@ class _RegisterState extends State<Register> {
                   style: TextStyle(color: Colors.white),
                 ),
                 onPressed: () async {
-                  if (_formKey.currentState.validate()) {}
-                  // print(email);
-                  // print(password);
-                  dynamic result =
-                      await _auth.registerWithEmailAndPassword(email, password);
-                  if (result == null) {
-                    setState(
-                        () => error = 'Correo Invalido. Intente Nuevamente');
+                  if (_formKey.currentState.validate()) {
+                    // print(email);
+                    // print(password);
+                    dynamic result = await _auth.registerWithEmailAndPassword(
+                        email, password);
+                    if (result == null) {
+                      setState(() =>
+                          error = 'Error de registro. Intente nuevamente');
+                    }
                   }
                 },
               ),
