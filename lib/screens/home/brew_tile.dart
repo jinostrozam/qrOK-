@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:qrok/models/brew.dart';
 
-
 class BrewTile extends StatelessWidget {
   final Brew brew;
   BrewTile({this.brew});
